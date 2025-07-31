@@ -1,0 +1,42 @@
+# .github/workflows/stock-crawler.yml
+name: Stock Crawler
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每 5 分鐘執行一次
+  workflow_dispatch:       # 支援手動觸發
+
+jobs:
+  crawl-stock:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 lxml
+        
+    - name: Run crawler
+      run: |
+        python stock_crawler.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add stock_top10_volume.json stock_crawler_log.txt
+        git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
