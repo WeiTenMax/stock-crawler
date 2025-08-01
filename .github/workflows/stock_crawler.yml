@@ -36,6 +36,13 @@ jobs:
         # 設定台灣時區
         export TZ='Asia/Taipei'
         
+        # 判斷是否為手動觸發 workflow
+        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          echo "手動觸發工作流程，忽略交易時段限制，直接執行爬蟲"
+          echo "IS_TRADING_HOURS=true" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        
         # 取得當前時間
         HOUR=$(date +%H)
         MINUTE=$(date +%M)
@@ -67,7 +74,14 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add stock_top10_volume.json stock_crawler_log.txt
-        git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股交易時段)"
+        
+        # 判斷是否為手動觸發
+        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (手動觸發更新)"
+        else
+          git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股交易時段)"
+        fi
+        
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
