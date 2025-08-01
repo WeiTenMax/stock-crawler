@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-01 12:31:24",
+    "last_updated_cst": "2025-08-01 14:23:38",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1802",
             "name": "台玻",
-            "price": "24.95",
-            "volume": "222,854"
+            "price": "25.00",
+            "volume": "258,172"
         },
         {
             "rank": 2,
             "symbol": "1303",
             "name": "南亞",
-            "price": "39.90",
-            "volume": "122,513"
+            "price": "39.80",
+            "volume": "146,917"
         },
         {
             "rank": 3,
-            "symbol": "1504",
-            "name": "東元",
-            "price": "56.10",
-            "volume": "94,300"
+            "symbol": "8021",
+            "name": "尖點",
+            "price": "66.00",
+            "volume": "103,095"
         },
         {
             "rank": 4,
-            "symbol": "8021",
-            "name": "尖點",
-            "price": "66.70",
-            "volume": "93,147"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "51.10",
+            "volume": "97,824"
         },
         {
             "rank": 5,
-            "symbol": "0050",
-            "name": "元大台灣50",
-            "price": "50.95",
-            "volume": "86,352"
+            "symbol": "1504",
+            "name": "東元",
+            "price": "56.10",
+            "volume": "95,653"
         },
         {
             "rank": 6,
             "symbol": "00919",
             "name": "群益台灣精選高息",
-            "price": "21.34",
-            "volume": "76,251"
+            "price": "21.32",
+            "volume": "85,787"
         },
         {
             "rank": 7,
             "symbol": "00878",
             "name": "國泰永續高股息",
-            "price": "21.03",
-            "volume": "69,081"
+            "price": "21.05",
+            "volume": "78,776"
         },
         {
             "rank": 8,
-            "symbol": "00632R",
-            "name": "元大台灣50反1",
-            "price": "20.65",
-            "volume": "59,963"
+            "symbol": "2887",
+            "name": "台新金",
+            "price": "16.35",
+            "volume": "75,368"
         },
         {
             "rank": 9,
-            "symbol": "2027",
-            "name": "大成鋼",
-            "price": "39.15",
-            "volume": "55,259"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "11.81",
+            "volume": "69,745"
         },
         {
             "rank": 10,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "11.80",
-            "volume": "53,784"
+            "symbol": "00632R",
+            "name": "元大台灣50反1",
+            "price": "20.61",
+            "volume": "67,228"
         }
     ]
 }
