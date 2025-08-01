@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-01 11:14:04",
+    "last_updated_cst": "2025-08-01 11:37:03",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1802",
             "name": "台玻",
             "price": "24.80",
-            "volume": "203,823"
+            "volume": "206,635"
         },
         {
             "rank": 2,
             "symbol": "1303",
             "name": "南亞",
-            "price": "40.15",
-            "volume": "110,098"
+            "price": "40.00",
+            "volume": "113,818"
         },
         {
             "rank": 3,
             "symbol": "8021",
             "name": "尖點",
-            "price": "66.90",
-            "volume": "85,228"
+            "price": "67.20",
+            "volume": "89,386"
         },
         {
             "rank": 4,
-            "symbol": "00919",
-            "name": "群益台灣精選高息",
-            "price": "21.35",
-            "volume": "66,294"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "50.95",
+            "volume": "77,429"
         },
         {
             "rank": 5,
             "symbol": "1504",
             "name": "東元",
-            "price": "55.10",
-            "volume": "64,436"
+            "price": "55.80",
+            "volume": "70,906"
         },
         {
             "rank": 6,
-            "symbol": "0050",
-            "name": "元大台灣50",
-            "price": "51.05",
-            "volume": "62,687"
+            "symbol": "00919",
+            "name": "群益台灣精選高息",
+            "price": "21.33",
+            "volume": "69,291"
         },
         {
             "rank": 7,
             "symbol": "00878",
             "name": "國泰永續高股息",
-            "price": "21.04",
-            "volume": "58,329"
+            "price": "21.03",
+            "volume": "61,325"
         },
         {
             "rank": 8,
             "symbol": "00632R",
             "name": "元大台灣50反1",
-            "price": "20.62",
-            "volume": "55,146"
+            "price": "20.64",
+            "volume": "56,442"
         },
         {
             "rank": 9,
             "symbol": "2027",
             "name": "大成鋼",
-            "price": "39.35",
-            "volume": "49,564"
+            "price": "39.20",
+            "volume": "51,280"
         },
         {
             "rank": 10,
             "symbol": "3715",
             "name": "定穎投控",
-            "price": "84.60",
-            "volume": "47,367"
+            "price": "85.30",
+            "volume": "48,653"
         }
     ]
 }
