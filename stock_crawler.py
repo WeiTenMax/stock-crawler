@@ -40,7 +40,7 @@ def fetch_stock_data():
         'Referer': 'https://tw.stock.yahoo.com/'
     }
     
-    url = "https://tw.stock.yahoo.com/rank/volume?exchange=TAI"
+    url = "https://tw.stock.yahoo.com/rank/volume?exchange=ALL"
     
     try:
         print(f"正在從 {url} 抓取資料...")
