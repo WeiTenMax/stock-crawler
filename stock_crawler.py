@@ -318,8 +318,8 @@ def main():
         if arg.lower() in ('--test', '-t'):
             test_mode = True
     
-    INTERVAL_SECONDS = 5 if test_mode else 30
-    MAX_EXECUTIONS = 3 if test_mode else 10
+    INTERVAL_SECONDS = 5 if test_mode else 0  # 改為 0，不需要間隔
+    MAX_EXECUTIONS = 3 if test_mode else 1   # 改為 1，每次只執行一次爬蟲
     TOP_N = 10
     
     print("\n" + "="*60)
