@@ -3,7 +3,10 @@ name: Stock Crawler
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每 5 分鐘執行一次
+    # 週一至週五 (1-5) 上午9點到下午1點，每5分鐘執行一次
+    - cron: '*/5 9-13 * * 1-5'
+    # 下午1點30分和1點35分各執行一次，確保收到收盤資料
+    - cron: '30,35 13 * * 1-5'
   workflow_dispatch:       # 支援手動觸發
 
 jobs:
@@ -27,18 +30,44 @@ jobs:
       run: |
         pip install requests beautifulsoup4 lxml
         
+    - name: Check trading hours
+      id: check-hours
+      run: |
+        # 設定台灣時區
+        export TZ='Asia/Taipei'
+        
+        # 取得當前時間
+        HOUR=$(date +%H)
+        MINUTE=$(date +%M)
+        WEEKDAY=$(date +%u)
+        
+        # 檢查是否為交易時段 (週一到週五 9:00-13:35)
+        if [ "$WEEKDAY" -ge 1 ] && [ "$WEEKDAY" -le 5 ] && \
+           ( [ "$HOUR" -gt 9 ] || [ "$HOUR" -eq 9 -a "$MINUTE" -ge 0 ] ) && \
+           ( [ "$HOUR" -lt 13 ] || [ "$HOUR" -eq 13 -a "$MINUTE" -le 35 ] ); then
+          echo "是交易時段，執行爬蟲"
+          echo "IS_TRADING_HOURS=true" >> $GITHUB_OUTPUT
+        else
+          echo "非交易時段，不執行爬蟲"
+          echo "IS_TRADING_HOURS=false" >> $GITHUB_OUTPUT
+        fi
+      env:
+        TZ: 'Asia/Taipei'
+        
     - name: Run crawler
+      if: steps.check-hours.outputs.IS_TRADING_HOURS == 'true'
       run: |
         python stock_crawler.py
       env:
         TZ: 'Asia/Taipei'  # 設定時區為台灣時間 (UTC+8)
         
     - name: Commit and push changes
+      if: steps.check-hours.outputs.IS_TRADING_HOURS == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add stock_top10_volume.json stock_crawler_log.txt
-        git diff --staged --quiet || git commit -m "Update stock data - $(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S')"
+        git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股交易時段)"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
