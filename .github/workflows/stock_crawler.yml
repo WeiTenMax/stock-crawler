@@ -30,13 +30,16 @@ jobs:
     - name: Run crawler
       run: |
         python stock_crawler.py
+      env:
+        TZ: 'Asia/Taipei'  # 設定時區為台灣時間 (UTC+8)
         
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add stock_top10_volume.json stock_crawler_log.txt
-        git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git diff --staged --quiet || git commit -m "Update stock data - $(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S')"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TZ: 'Asia/Taipei'  # 設定時區為台灣時間 (UTC+8)

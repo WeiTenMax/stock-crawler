@@ -10,10 +10,13 @@ import datetime
 import time
 import sys
 import traceback
+from datetime import datetime, timezone, timedelta
 
 
 def log_status(success, error_msg=None):
-    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # 設定台灣時區 (UTC+8)
+    tw_timezone = timezone(timedelta(hours=8))
+    current_time = datetime.now(tw_timezone).strftime('%Y-%m-%d %H:%M:%S')
     log_file = "stock_crawler_log.txt"
     
     try:
@@ -200,7 +203,9 @@ def process_and_save_data(ranking_data, top_n=10, execution_count=0):
         log_status(False, error_msg)
         return False
         
-    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # 使用台灣時區
+    tw_timezone = timezone(timedelta(hours=8))
+    current_time = datetime.now(tw_timezone).strftime('%Y-%m-%d %H:%M:%S')
     success = True
     error_messages = []
     
@@ -276,7 +281,9 @@ def process_and_save_data(ranking_data, top_n=10, execution_count=0):
     return success
 
 def crawl_once():
-    print(f"\n[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 執行爬蟲...")
+    # 使用台灣時區
+    tw_timezone = timezone(timedelta(hours=8))
+    print(f"\n[{datetime.now(tw_timezone).strftime('%Y-%m-%d %H:%M:%S')}] 執行爬蟲...")
     
     try:
         html_content = fetch_stock_data()
