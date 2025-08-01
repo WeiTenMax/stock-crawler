@@ -1,12 +1,12 @@
-# .github/workflows/stock-crawler.yml
+# .github/workflows/stock_crawler.yml
 name: Stock Crawler
 
 on:
   schedule:
-    # 週一至週五 (1-5) 上午9點到下午1點，每5分鐘執行一次
-    - cron: '*/5 9-13 * * 1-5'
-    # 下午1點30分和1點35分各執行一次，確保收到收盤資料
-    - cron: '30,35 13 * * 1-5'
+    # 週一至週五 (1-5) 上午9點到下午1點 錯開整點時間，減少排隊延遲
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 9-13 * * 1-5'
+    # 下午1點31分和1點36分各執行一次，確保收到收盤資料
+    - cron: '31,36 13 * * 1-5'
   workflow_dispatch:       # 支援手動觸發
 
 jobs:
