@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-04 12:01:16",
+    "last_updated_cst": "2025-08-04 12:33:19",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "1802",
-            "name": "台玻",
-            "price": "24.55",
-            "volume": "79,188"
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "37.65",
+            "volume": "82,319"
         },
         {
             "rank": 2,
-            "symbol": "1303",
-            "name": "南亞",
-            "price": "37.70",
-            "volume": "77,428"
+            "symbol": "1802",
+            "name": "台玻",
+            "price": "24.45",
+            "volume": "81,800"
         },
         {
             "rank": 3,
             "symbol": "1815O",
             "name": "富喬",
             "price": "55.70",
-            "volume": "77,065"
+            "volume": "80,168"
         },
         {
             "rank": 4,
             "symbol": "0050",
             "name": "元大台灣50",
-            "price": "50.75",
-            "volume": "68,003"
+            "price": "50.65",
+            "volume": "74,705"
         },
         {
             "rank": 5,
             "symbol": "3294O",
             "name": "英濟",
             "price": "50.30",
-            "volume": "63,463"
+            "volume": "63,611"
         },
         {
             "rank": 6,
             "symbol": "1504",
             "name": "東元",
-            "price": "55.30",
-            "volume": "55,883"
+            "price": "54.70",
+            "volume": "61,935"
         },
         {
             "rank": 7,
             "symbol": "5498O",
             "name": "凱崴",
-            "price": "19.25",
-            "volume": "54,829"
+            "price": "19.20",
+            "volume": "56,612"
         },
         {
             "rank": 8,
-            "symbol": "3645",
-            "name": "達邁",
-            "price": "73.80",
-            "volume": "54,400"
+            "symbol": "1301",
+            "name": "台塑",
+            "price": "37.80",
+            "volume": "56,091"
         },
         {
             "rank": 9,
-            "symbol": "1301",
-            "name": "台塑",
-            "price": "37.90",
-            "volume": "53,395"
+            "symbol": "3645",
+            "name": "達邁",
+            "price": "74.00",
+            "volume": "55,478"
         },
         {
             "rank": 10,
-            "symbol": "8021",
-            "name": "尖點",
-            "price": "68.10",
-            "volume": "53,010"
+            "symbol": "00632R",
+            "name": "元大台灣50反1",
+            "price": "20.76",
+            "volume": "54,558"
         }
     ]
 }
