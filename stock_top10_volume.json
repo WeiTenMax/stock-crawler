@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-05 11:57:33",
+    "last_updated_cst": "2025-08-05 12:18:43",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3706",
             "name": "神達",
-            "price": "83.40",
-            "volume": "133,039"
+            "price": "83.30",
+            "volume": "141,578"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "55.50",
-            "volume": "109,728"
+            "price": "54.70",
+            "volume": "122,867"
         },
         {
             "rank": 3,
             "symbol": "1802",
             "name": "台玻",
-            "price": "23.65",
-            "volume": "74,077"
+            "price": "23.35",
+            "volume": "80,302"
         },
         {
             "rank": 4,
             "symbol": "3019",
             "name": "亞光",
-            "price": "157.00",
-            "volume": "61,274"
+            "price": "154.50",
+            "volume": "64,759"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
-            "price": "36.85",
-            "volume": "58,110"
+            "price": "36.80",
+            "volume": "59,638"
         },
         {
             "rank": 6,
             "symbol": "2630",
             "name": "亞航",
-            "price": "46.40",
-            "volume": "56,035"
+            "price": "46.00",
+            "volume": "57,782"
         },
         {
             "rank": 7,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.62",
-            "volume": "53,575"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.00",
+            "volume": "56,392"
         },
         {
             "rank": 8,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.01",
-            "volume": "52,955"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.63",
+            "volume": "55,175"
         },
         {
             "rank": 9,
             "symbol": "00680L",
             "name": "元大美債20正2",
             "price": "7.25",
-            "volume": "51,724"
+            "volume": "53,438"
         },
         {
             "rank": 10,
-            "symbol": "2834",
-            "name": "臺企銀",
-            "price": "15.45",
-            "volume": "48,862"
+            "symbol": "3294O",
+            "name": "英濟",
+            "price": "47.95",
+            "volume": "50,554"
         }
     ]
 }
