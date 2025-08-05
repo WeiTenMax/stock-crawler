@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-05 10:28:11",
+    "last_updated_cst": "2025-08-05 11:50:17",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3706",
             "name": "神達",
-            "price": "81.60",
-            "volume": "96,407"
+            "price": "82.60",
+            "volume": "125,282"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "56.20",
-            "volume": "94,180"
+            "price": "55.70",
+            "volume": "108,152"
         },
         {
             "rank": 3,
             "symbol": "1802",
             "name": "台玻",
-            "price": "23.70",
-            "volume": "62,885"
+            "price": "23.65",
+            "volume": "73,661"
         },
         {
             "rank": 4,
             "symbol": "3019",
             "name": "亞光",
-            "price": "158.50",
-            "volume": "54,383"
+            "price": "157.50",
+            "volume": "61,193"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
-            "price": "36.80",
-            "volume": "48,277"
+            "price": "36.95",
+            "volume": "57,579"
         },
         {
             "rank": 6,
             "symbol": "2630",
             "name": "亞航",
-            "price": "45.85",
-            "volume": "46,088"
+            "price": "46.45",
+            "volume": "55,229"
         },
         {
             "rank": 7,
-            "symbol": "2834",
-            "name": "臺企銀",
-            "price": "15.45",
-            "volume": "45,646"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.63",
+            "volume": "53,307"
         },
         {
             "rank": 8,
-            "symbol": "3294O",
-            "name": "英濟",
-            "price": "48.90",
-            "volume": "41,793"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.00",
+            "volume": "52,032"
         },
         {
             "rank": 9,
             "symbol": "00680L",
             "name": "元大美債20正2",
-            "price": "7.26",
-            "volume": "41,221"
+            "price": "7.25",
+            "volume": "50,416"
         },
         {
             "rank": 10,
-            "symbol": "8028",
-            "name": "昇陽半導體",
-            "price": "166.50",
-            "volume": "38,005"
+            "symbol": "2834",
+            "name": "臺企銀",
+            "price": "15.45",
+            "volume": "48,750"
         }
     ]
 }
