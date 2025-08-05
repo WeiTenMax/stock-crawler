@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-05 13:19:41",
+    "last_updated_cst": "2025-08-05 14:14:15",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3706",
             "name": "神達",
-            "price": "83.10",
-            "volume": "156,715"
+            "price": "83.40",
+            "volume": "164,750"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "54.20",
-            "volume": "145,858"
+            "price": "54.00",
+            "volume": "159,892"
         },
         {
             "rank": 3,
             "symbol": "1802",
             "name": "台玻",
-            "price": "23.25",
-            "volume": "95,860"
+            "price": "23.30",
+            "volume": "104,964"
         },
         {
             "rank": 4,
-            "symbol": "3019",
-            "name": "亞光",
-            "price": "153.50",
-            "volume": "73,202"
+            "symbol": "2887",
+            "name": "台新金",
+            "price": "16.65",
+            "volume": "91,382"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
             "price": "36.80",
-            "volume": "70,913"
+            "volume": "78,826"
         },
         {
             "rank": 6,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.01",
-            "volume": "67,587"
+            "symbol": "3019",
+            "name": "亞光",
+            "price": "154.00",
+            "volume": "78,257"
         },
         {
             "rank": 7,
-            "symbol": "2887",
-            "name": "台新金",
-            "price": "16.65",
-            "volume": "66,148"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.01",
+            "volume": "69,343"
         },
         {
             "rank": 8,
-            "symbol": "2630",
-            "name": "亞航",
-            "price": "46.60",
-            "volume": "64,335"
-        },
-        {
-            "rank": 9,
             "symbol": "00715L",
             "name": "期街口布蘭特正2",
             "price": "11.60",
-            "volume": "62,817"
+            "volume": "66,587"
+        },
+        {
+            "rank": 9,
+            "symbol": "2630",
+            "name": "亞航",
+            "price": "46.70",
+            "volume": "66,574"
         },
         {
             "rank": 10,
-            "symbol": "00680L",
-            "name": "元大美債20正2",
-            "price": "7.26",
-            "volume": "60,214"
+            "symbol": "3294O",
+            "name": "英濟",
+            "price": "47.80",
+            "volume": "63,381"
         }
     ]
 }
