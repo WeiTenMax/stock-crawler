@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-05 10:17:56",
+    "last_updated_cst": "2025-08-05 10:28:11",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3706",
             "name": "神達",
-            "price": "81.40",
-            "volume": "94,097"
+            "price": "81.60",
+            "volume": "96,407"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "55.70",
-            "volume": "86,052"
+            "price": "56.20",
+            "volume": "94,180"
         },
         {
             "rank": 3,
             "symbol": "1802",
             "name": "台玻",
-            "price": "23.50",
-            "volume": "59,208"
+            "price": "23.70",
+            "volume": "62,885"
         },
         {
             "rank": 4,
             "symbol": "3019",
             "name": "亞光",
             "price": "158.50",
-            "volume": "53,571"
+            "volume": "54,383"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
-            "price": "36.65",
-            "volume": "46,265"
+            "price": "36.80",
+            "volume": "48,277"
         },
         {
             "rank": 6,
             "symbol": "2630",
             "name": "亞航",
-            "price": "45.45",
-            "volume": "44,965"
+            "price": "45.85",
+            "volume": "46,088"
         },
         {
             "rank": 7,
             "symbol": "2834",
             "name": "臺企銀",
-            "price": "15.40",
-            "volume": "43,450"
+            "price": "15.45",
+            "volume": "45,646"
         },
         {
             "rank": 8,
             "symbol": "3294O",
             "name": "英濟",
-            "price": "48.60",
-            "volume": "40,097"
+            "price": "48.90",
+            "volume": "41,793"
         },
         {
             "rank": 9,
             "symbol": "00680L",
             "name": "元大美債20正2",
-            "price": "7.25",
-            "volume": "38,926"
+            "price": "7.26",
+            "volume": "41,221"
         },
         {
             "rank": 10,
             "symbol": "8028",
             "name": "昇陽半導體",
-            "price": "168.00",
-            "volume": "36,534"
+            "price": "166.50",
+            "volume": "38,005"
         }
     ]
 }
