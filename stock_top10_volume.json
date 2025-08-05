@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-05 12:18:43",
+    "last_updated_cst": "2025-08-05 12:50:07",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3706",
             "name": "神達",
-            "price": "83.30",
-            "volume": "141,578"
+            "price": "82.70",
+            "volume": "148,712"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
             "price": "54.70",
-            "volume": "122,867"
+            "volume": "134,523"
         },
         {
             "rank": 3,
             "symbol": "1802",
             "name": "台玻",
-            "price": "23.35",
-            "volume": "80,302"
+            "price": "23.30",
+            "volume": "87,250"
         },
         {
             "rank": 4,
             "symbol": "3019",
             "name": "亞光",
-            "price": "154.50",
-            "volume": "64,759"
+            "price": "154.00",
+            "volume": "70,090"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
-            "price": "36.80",
-            "volume": "59,638"
+            "price": "36.85",
+            "volume": "63,269"
         },
         {
             "rank": 6,
-            "symbol": "2630",
-            "name": "亞航",
-            "price": "46.00",
-            "volume": "57,782"
-        },
-        {
-            "rank": 7,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
             "price": "12.00",
-            "volume": "56,392"
+            "volume": "60,436"
+        },
+        {
+            "rank": 7,
+            "symbol": "2630",
+            "name": "亞航",
+            "price": "46.25",
+            "volume": "59,268"
         },
         {
             "rank": 8,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.63",
-            "volume": "55,175"
+            "symbol": "2301",
+            "name": "光寶科",
+            "price": "133.50",
+            "volume": "58,004"
         },
         {
             "rank": 9,
-            "symbol": "00680L",
-            "name": "元大美債20正2",
-            "price": "7.25",
-            "volume": "53,438"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.63",
+            "volume": "57,313"
         },
         {
             "rank": 10,
-            "symbol": "3294O",
-            "name": "英濟",
-            "price": "47.95",
-            "volume": "50,554"
+            "symbol": "00680L",
+            "name": "元大美債20正2",
+            "price": "7.24",
+            "volume": "56,604"
         }
     ]
 }
