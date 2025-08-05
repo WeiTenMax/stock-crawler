@@ -32,7 +32,7 @@ jobs:
       run: |
         pip install requests beautifulsoup4 lxml
         
-    - name: Check trading hours
+    - name: Check execution condition
       id: check-hours
       run: |
         # 設定台灣時區
@@ -40,8 +40,9 @@ jobs:
         
         # 判斷是否為手動觸發 workflow
         if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-          echo "手動觸發工作流程，忽略交易時段限制，直接執行爬蟲"
-          echo "IS_TRADING_HOURS=true" >> $GITHUB_OUTPUT
+          echo "手動觸發工作流程，直接執行爬蟲"
+          echo "SHOULD_RUN=true" >> $GITHUB_OUTPUT
+          echo "UPDATE_TYPE=manual" >> $GITHUB_OUTPUT
           exit 0
         fi
         
@@ -50,41 +51,109 @@ jobs:
         MINUTE=$(date +%M)
         WEEKDAY=$(date +%u)
         
-        # 檢查是否為交易時段 (週一到週五 9:00-13:35)
-        if [ "$WEEKDAY" -ge 1 ] && [ "$WEEKDAY" -le 5 ] && \
-           ( [ "$HOUR" -gt 9 ] || [ "$HOUR" -eq 9 -a "$MINUTE" -ge 0 ] ) && \
-           ( [ "$HOUR" -lt 13 ] || [ "$HOUR" -eq 13 -a "$MINUTE" -le 35 ] ); then
-          echo "是交易時段，執行爬蟲"
-          echo "IS_TRADING_HOURS=true" >> $GITHUB_OUTPUT
+        # 判斷是否為工作日
+        IS_WORKDAY=false
+        if [ "$WEEKDAY" -ge 1 ] && [ "$WEEKDAY" -le 5 ]; then
+          IS_WORKDAY=true
+        fi
+        
+        # 工作日的話，一律執行爬蟲以獲取最新資料
+        if [ "$IS_WORKDAY" == "true" ]; then
+          # 檢查是否為交易時段 (週一到週五 9:00-13:35)
+          if ( [ "$HOUR" -gt 9 ] || [ "$HOUR" -eq 9 -a "$MINUTE" -ge 0 ] ) && \
+             ( [ "$HOUR" -lt 13 ] || [ "$HOUR" -eq 13 -a "$MINUTE" -le 35 ] ); then
+            echo "是交易時段，執行爬蟲"
+            echo "SHOULD_RUN=true" >> $GITHUB_OUTPUT
+            echo "UPDATE_TYPE=trading" >> $GITHUB_OUTPUT
+          else
+            echo "非交易時段，但為工作日，仍執行爬蟲以獲取收盤後最新價格"
+            echo "SHOULD_RUN=true" >> $GITHUB_OUTPUT
+            echo "UPDATE_TYPE=after_trading" >> $GITHUB_OUTPUT
+          fi
         else
-          echo "非交易時段，不執行爬蟲"
-          echo "IS_TRADING_HOURS=false" >> $GITHUB_OUTPUT
+          echo "非工作日，執行爬蟲"
+          echo "SHOULD_RUN=true" >> $GITHUB_OUTPUT
+          echo "UPDATE_TYPE=weekend" >> $GITHUB_OUTPUT
         fi
       env:
         TZ: 'Asia/Taipei'
         
+    - name: Backup original files
+      if: steps.check-hours.outputs.SHOULD_RUN == 'true'
+      run: |
+        # 備份原始檔案，用於後續比較
+        if [ -f "stock_top10_volume.json" ]; then
+          cp stock_top10_volume.json stock_top10_volume.json.bak
+        else
+          echo "{}" > stock_top10_volume.json.bak
+        fi
+        
+        if [ -f "stock_crawler_log.txt" ]; then
+          cp stock_crawler_log.txt stock_crawler_log.txt.bak
+        else
+          echo "" > stock_crawler_log.txt.bak
+        fi
+        
     - name: Run crawler
-      if: steps.check-hours.outputs.IS_TRADING_HOURS == 'true'
+      if: steps.check-hours.outputs.SHOULD_RUN == 'true'
       run: |
         python stock_crawler.py
       env:
         TZ: 'Asia/Taipei'  # 設定時區為台灣時間 (UTC+8)
+    
+    - name: Check for changes
+      id: check-changes
+      if: steps.check-hours.outputs.SHOULD_RUN == 'true'
+      run: |
+        # 檢查股票數據是否有變化
+        if [ -f "stock_top10_volume.json" ]; then
+          # 比較新舊檔案
+          if ! cmp -s "stock_top10_volume.json" "stock_top10_volume.json.bak"; then
+            echo "股票數據有更新，將提交變更"
+            echo "HAS_CHANGES=true" >> $GITHUB_OUTPUT
+          else
+            echo "股票數據沒有變化，不需要提交"
+            echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
+          fi
+        else
+          echo "找不到股票數據檔案，不進行提交"
+          echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
+        fi
         
     - name: Commit and push changes
-      if: steps.check-hours.outputs.IS_TRADING_HOURS == 'true'
+      if: steps.check-hours.outputs.SHOULD_RUN == 'true' && steps.check-changes.outputs.HAS_CHANGES == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add stock_top10_volume.json stock_crawler_log.txt
         
-        # 判斷是否為手動觸發
+        # 根據觸發方式和時間段生成不同的提交訊息
         if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
           git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (手動觸發更新)"
         else
-          git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股交易時段)"
+          case "${{ steps.check-hours.outputs.UPDATE_TYPE }}" in
+            trading)
+              git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股交易時段)"
+              ;;
+            after_trading)
+              git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (台股收盤後更新)"
+              ;;
+            weekend)
+              git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (非交易日更新)"
+              ;;
+            *)
+              git diff --staged --quiet || git commit -m "Update stock data - $(date '+%Y-%m-%d %H:%M:%S') (定期更新)"
+              ;;
+          esac
         fi
         
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TZ: 'Asia/Taipei'  # 設定時區為台灣時間 (UTC+8)
+        
+    - name: Cleanup backup files
+      if: always() && steps.check-hours.outputs.SHOULD_RUN == 'true'
+      run: |
+        # 清理備份檔案
+        rm -f stock_top10_volume.json.bak stock_crawler_log.txt.bak
