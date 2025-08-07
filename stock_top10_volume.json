@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-07 07:59:54",
+    "last_updated_cst": "2025-08-07 10:27:11",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "2301",
-            "name": "光寶科",
-            "price": "133.00",
-            "volume": "127,345"
+            "symbol": "3715",
+            "name": "定穎投控",
+            "price": "93.60",
+            "volume": "99,211"
         },
         {
             "rank": 2,
-            "symbol": "3706",
-            "name": "神達",
-            "price": "81.90",
-            "volume": "111,588"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "52.50",
+            "volume": "79,531"
         },
         {
             "rank": 3,
-            "symbol": "1815O",
-            "name": "富喬",
-            "price": "53.00",
-            "volume": "92,325"
+            "symbol": "2317",
+            "name": "鴻海",
+            "price": "194.00",
+            "volume": "70,660"
         },
         {
             "rank": 4,
-            "symbol": "2374",
-            "name": "佳能",
-            "price": "68.40",
-            "volume": "75,881"
+            "symbol": "3706",
+            "name": "神達",
+            "price": "83.40",
+            "volume": "69,404"
         },
         {
             "rank": 5,
-            "symbol": "3481",
-            "name": "群創",
-            "price": "11.90",
-            "volume": "75,501"
+            "symbol": "1815O",
+            "name": "富喬",
+            "price": "54.40",
+            "volume": "66,773"
         },
         {
             "rank": 6,
-            "symbol": "1303",
-            "name": "南亞",
-            "price": "37.30",
-            "volume": "75,275"
+            "symbol": "00632R",
+            "name": "元大台灣50反1",
+            "price": "20.08",
+            "volume": "65,437"
         },
         {
             "rank": 7,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "11.95",
-            "volume": "75,038"
+            "symbol": "1504",
+            "name": "東元",
+            "price": "58.10",
+            "volume": "50,413"
         },
         {
             "rank": 8,
-            "symbol": "2317",
-            "name": "鴻海",
-            "price": "186.00",
-            "volume": "67,051"
+            "symbol": "8021",
+            "name": "尖點",
+            "price": "78.10",
+            "volume": "50,261"
         },
         {
             "rank": 9,
-            "symbol": "5371O",
-            "name": "中光電",
-            "price": "92.60",
-            "volume": "57,557"
+            "symbol": "2892",
+            "name": "第一金",
+            "price": "28.35",
+            "volume": "46,352"
         },
         {
             "rank": 10,
-            "symbol": "1802",
-            "name": "台玻",
-            "price": "23.35",
-            "volume": "56,607"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.21",
+            "volume": "45,811"
         }
     ]
 }
