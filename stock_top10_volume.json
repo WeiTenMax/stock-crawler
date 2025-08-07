@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-07 10:27:11",
+    "last_updated_cst": "2025-08-07 11:53:09",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3715",
             "name": "定穎投控",
-            "price": "93.60",
-            "volume": "99,211"
+            "price": "91.70",
+            "volume": "112,680"
         },
         {
             "rank": 2,
-            "symbol": "0050",
-            "name": "元大台灣50",
-            "price": "52.50",
-            "volume": "79,531"
+            "symbol": "1815O",
+            "name": "富喬",
+            "price": "54.90",
+            "volume": "108,666"
         },
         {
             "rank": 3,
-            "symbol": "2317",
-            "name": "鴻海",
-            "price": "194.00",
-            "volume": "70,660"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "52.50",
+            "volume": "104,189"
         },
         {
             "rank": 4,
-            "symbol": "3706",
-            "name": "神達",
-            "price": "83.40",
-            "volume": "69,404"
+            "symbol": "2317",
+            "name": "鴻海",
+            "price": "194.50",
+            "volume": "89,578"
         },
         {
             "rank": 5,
-            "symbol": "1815O",
-            "name": "富喬",
-            "price": "54.40",
-            "volume": "66,773"
-        },
-        {
-            "rank": 6,
             "symbol": "00632R",
             "name": "元大台灣50反1",
             "price": "20.08",
-            "volume": "65,437"
+            "volume": "83,213"
+        },
+        {
+            "rank": 6,
+            "symbol": "3706",
+            "name": "神達",
+            "price": "82.80",
+            "volume": "80,441"
         },
         {
             "rank": 7,
-            "symbol": "1504",
-            "name": "東元",
-            "price": "58.10",
-            "volume": "50,413"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.22",
+            "volume": "63,259"
         },
         {
             "rank": 8,
-            "symbol": "8021",
-            "name": "尖點",
-            "price": "78.10",
-            "volume": "50,261"
+            "symbol": "2892",
+            "name": "第一金",
+            "price": "28.40",
+            "volume": "62,379"
         },
         {
             "rank": 9,
-            "symbol": "2892",
-            "name": "第一金",
-            "price": "28.35",
-            "volume": "46,352"
+            "symbol": "1504",
+            "name": "東元",
+            "price": "57.30",
+            "volume": "59,136"
         },
         {
             "rank": 10,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.21",
-            "volume": "45,811"
+            "symbol": "2301",
+            "name": "光寶科",
+            "price": "138.00",
+            "volume": "57,159"
         }
     ]
 }
