@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-08 12:35:03",
+    "last_updated_cst": "2025-08-08 13:05:33",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "56.00",
-            "volume": "119,896"
+            "price": "55.90",
+            "volume": "126,138"
         },
         {
             "rank": 2,
             "symbol": "00715L",
             "name": "期街口布蘭特正2",
-            "price": "10.85",
-            "volume": "108,026"
+            "price": "10.83",
+            "volume": "112,721"
         },
         {
             "rank": 3,
-            "symbol": "1802",
-            "name": "台玻",
-            "price": "24.10",
-            "volume": "97,196"
+            "symbol": "8021",
+            "name": "尖點",
+            "price": "82.40",
+            "volume": "107,722"
         },
         {
             "rank": 4,
-            "symbol": "8021",
-            "name": "尖點",
-            "price": "82.10",
-            "volume": "97,118"
+            "symbol": "1802",
+            "name": "台玻",
+            "price": "23.95",
+            "volume": "99,562"
         },
         {
             "rank": 5,
             "symbol": "2344",
             "name": "華邦電",
-            "price": "17.55",
-            "volume": "90,684"
+            "price": "17.40",
+            "volume": "97,702"
         },
         {
             "rank": 6,
             "symbol": "2449",
             "name": "京元電子",
-            "price": "132.50",
-            "volume": "88,914"
+            "price": "133.50",
+            "volume": "96,281"
         },
         {
             "rank": 7,
             "symbol": "2027",
             "name": "大成鋼",
-            "price": "42.30",
-            "volume": "82,585"
+            "price": "42.45",
+            "volume": "88,843"
         },
         {
             "rank": 8,
             "symbol": "2408",
             "name": "南亞科",
-            "price": "44.20",
-            "volume": "82,247"
+            "price": "44.10",
+            "volume": "86,563"
         },
         {
             "rank": 9,
             "symbol": "3715",
             "name": "定穎投控",
-            "price": "95.40",
-            "volume": "78,179"
+            "price": "94.50",
+            "volume": "82,184"
         },
         {
             "rank": 10,
-            "symbol": "5309O",
-            "name": "系統電",
-            "price": "50.40",
-            "volume": "73,580"
+            "symbol": "2374",
+            "name": "佳能",
+            "price": "74.10",
+            "volume": "76,514"
         }
     ]
 }
