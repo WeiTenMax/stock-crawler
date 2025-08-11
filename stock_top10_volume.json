@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-11 07:54:00",
+    "last_updated_cst": "2025-08-11 09:08:17",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "1815O",
-            "name": "富喬",
-            "price": "55.90",
-            "volume": "141,722"
+            "symbol": "2887I",
+            "name": "台新辛特",
+            "price": "9.12",
+            "volume": "26,480"
         },
         {
             "rank": 2,
-            "symbol": "2887",
-            "name": "台新金",
-            "price": "16.60",
-            "volume": "133,418"
+            "symbol": "2449",
+            "name": "京元電子",
+            "price": "141.00",
+            "volume": "25,186"
         },
         {
             "rank": 3,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "10.83",
-            "volume": "121,362"
+            "symbol": "2354",
+            "name": "鴻準",
+            "price": "75.00",
+            "volume": "17,034"
         },
         {
             "rank": 4,
-            "symbol": "8021",
-            "name": "尖點",
-            "price": "82.60",
-            "volume": "117,821"
+            "symbol": "1815O",
+            "name": "富喬",
+            "price": "57.00",
+            "volume": "15,882"
         },
         {
             "rank": 5,
-            "symbol": "1802",
-            "name": "台玻",
-            "price": "23.95",
-            "volume": "108,009"
+            "symbol": "8358O",
+            "name": "金居",
+            "price": "131.50",
+            "volume": "15,820"
         },
         {
             "rank": 6,
-            "symbol": "2344",
-            "name": "華邦電",
-            "price": "17.45",
-            "volume": "102,721"
+            "symbol": "2374",
+            "name": "佳能",
+            "price": "75.70",
+            "volume": "13,388"
         },
         {
             "rank": 7,
-            "symbol": "2449",
-            "name": "京元電子",
-            "price": "133.50",
-            "volume": "97,556"
+            "symbol": "2406",
+            "name": "國碩",
+            "price": "20.05",
+            "volume": "11,639"
         },
         {
             "rank": 8,
-            "symbol": "2027",
-            "name": "大成鋼",
-            "price": "42.30",
-            "volume": "96,176"
+            "symbol": "2887",
+            "name": "台新金",
+            "price": "16.55",
+            "volume": "10,174"
         },
         {
             "rank": 9,
-            "symbol": "2408",
-            "name": "南亞科",
-            "price": "43.95",
-            "volume": "94,292"
+            "symbol": "6215",
+            "name": "和椿",
+            "price": "140.50",
+            "volume": "9,214"
         },
         {
             "rank": 10,
-            "symbol": "3715",
-            "name": "定穎投控",
-            "price": "94.40",
-            "volume": "88,868"
+            "symbol": "2027",
+            "name": "大成鋼",
+            "price": "43.30",
+            "volume": "8,618"
         }
     ]
 }
