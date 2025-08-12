@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-12 12:54:45",
+    "last_updated_cst": "2025-08-12 13:14:56",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1815O",
             "name": "富喬",
             "price": "67.50",
-            "volume": "293,173"
+            "volume": "294,029"
         },
         {
             "rank": 2,
             "symbol": "1802",
             "name": "台玻",
             "price": "27.15",
-            "volume": "269,229"
+            "volume": "269,814"
         },
         {
             "rank": 3,
             "symbol": "2887",
             "name": "台新金",
-            "price": "16.00",
-            "volume": "164,767"
+            "price": "15.95",
+            "volume": "173,685"
         },
         {
             "rank": 4,
             "symbol": "1303",
             "name": "南亞",
-            "price": "41.40",
-            "volume": "148,062"
+            "price": "41.35",
+            "volume": "154,356"
         },
         {
             "rank": 5,
-            "symbol": "8358O",
-            "name": "金居",
-            "price": "140.50",
-            "volume": "118,356"
+            "symbol": "3706",
+            "name": "神達",
+            "price": "83.70",
+            "volume": "122,127"
         },
         {
             "rank": 6,
-            "symbol": "3706",
-            "name": "神達",
-            "price": "83.90",
-            "volume": "117,162"
+            "symbol": "8358O",
+            "name": "金居",
+            "price": "141.00",
+            "volume": "120,320"
         },
         {
             "rank": 7,
             "symbol": "2354",
             "name": "鴻準",
-            "price": "72.10",
-            "volume": "106,589"
+            "price": "71.90",
+            "volume": "114,516"
         },
         {
             "rank": 8,
             "symbol": "2408",
             "name": "南亞科",
             "price": "47.50",
-            "volume": "96,274"
+            "volume": "98,979"
         },
         {
             "rank": 9,
             "symbol": "2344",
             "name": "華邦電",
-            "price": "18.45",
-            "volume": "93,378"
+            "price": "18.50",
+            "volume": "96,701"
         },
         {
             "rank": 10,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
-            "price": "12.65",
-            "volume": "89,809"
+            "price": "12.63",
+            "volume": "95,218"
         }
     ]
 }
