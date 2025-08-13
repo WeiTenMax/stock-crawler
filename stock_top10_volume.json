@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-13 13:30:33",
+    "last_updated_cst": "2025-08-13 13:47:14",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1815O",
             "name": "富喬",
             "price": "69.10",
-            "volume": "264,177"
+            "volume": "272,696"
         },
         {
             "rank": 2,
             "symbol": "1802",
             "name": "台玻",
             "price": "29.85",
-            "volume": "262,120"
+            "volume": "262,310"
         },
         {
             "rank": 3,
             "symbol": "3231",
             "name": "緯創",
-            "price": "118.00",
-            "volume": "163,761"
+            "price": "117.50",
+            "volume": "168,082"
         },
         {
             "rank": 4,
             "symbol": "1303",
             "name": "南亞",
             "price": "42.60",
-            "volume": "148,854"
+            "volume": "151,862"
         },
         {
             "rank": 5,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "13.03",
-            "volume": "124,732"
+            "price": "13.06",
+            "volume": "128,196"
         },
         {
             "rank": 6,
             "symbol": "4958",
             "name": "臻鼎-KY",
-            "price": "160.50",
-            "volume": "108,913"
+            "price": "161.00",
+            "volume": "110,761"
         },
         {
             "rank": 7,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
             "price": "12.66",
-            "volume": "99,112"
+            "volume": "100,789"
         },
         {
             "rank": 8,
             "symbol": "2317",
             "name": "鴻海",
-            "price": "198.00",
-            "volume": "95,495"
+            "price": "198.50",
+            "volume": "99,379"
         },
         {
             "rank": 9,
             "symbol": "2408",
             "name": "南亞科",
-            "price": "46.15",
-            "volume": "93,200"
+            "price": "46.05",
+            "volume": "98,879"
         },
         {
             "rank": 10,
             "symbol": "3019",
             "name": "亞光",
             "price": "168.50",
-            "volume": "86,054"
+            "volume": "86,256"
         }
     ]
 }
