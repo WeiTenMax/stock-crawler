@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-13 12:18:03",
+    "last_updated_cst": "2025-08-13 12:46:58",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1802",
             "name": "台玻",
             "price": "29.85",
-            "volume": "258,696"
+            "volume": "260,694"
         },
         {
             "rank": 2,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "68.90",
-            "volume": "215,949"
+            "price": "69.80",
+            "volume": "232,668"
         },
         {
             "rank": 3,
             "symbol": "3231",
             "name": "緯創",
-            "price": "117.00",
-            "volume": "138,263"
+            "price": "118.00",
+            "volume": "146,486"
         },
         {
             "rank": 4,
             "symbol": "1303",
             "name": "南亞",
-            "price": "42.30",
-            "volume": "133,478"
+            "price": "42.70",
+            "volume": "137,535"
         },
         {
             "rank": 5,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "12.95",
-            "volume": "105,719"
+            "price": "13.03",
+            "volume": "113,991"
         },
         {
             "rank": 6,
             "symbol": "4958",
             "name": "臻鼎-KY",
-            "price": "158.00",
-            "volume": "92,801"
+            "price": "160.50",
+            "volume": "96,569"
         },
         {
             "rank": 7,
-            "symbol": "3019",
-            "name": "亞光",
-            "price": "168.50",
-            "volume": "84,745"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.66",
+            "volume": "89,712"
         },
         {
             "rank": 8,
-            "symbol": "2408",
-            "name": "南亞科",
-            "price": "46.05",
-            "volume": "80,626"
+            "symbol": "3019",
+            "name": "亞光",
+            "price": "168.50",
+            "volume": "85,644"
         },
         {
             "rank": 9,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.61",
-            "volume": "79,418"
+            "symbol": "2408",
+            "name": "南亞科",
+            "price": "46.20",
+            "volume": "84,024"
         },
         {
             "rank": 10,
             "symbol": "5498O",
             "name": "凱崴",
-            "price": "24.25",
-            "volume": "75,535"
+            "price": "24.55",
+            "volume": "81,722"
         }
     ]
 }
