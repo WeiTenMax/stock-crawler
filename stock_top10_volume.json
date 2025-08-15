@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-15 11:03:50",
+    "last_updated_cst": "2025-08-15 11:56:51",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1802",
             "name": "台玻",
             "price": "34.00",
-            "volume": "210,003"
+            "volume": "211,917"
         },
         {
             "rank": 2,
             "symbol": "3706",
             "name": "神達",
-            "price": "91.70",
-            "volume": "149,614"
+            "price": "92.00",
+            "volume": "166,594"
         },
         {
             "rank": 3,
             "symbol": "1815O",
             "name": "富喬",
-            "price": "78.60",
-            "volume": "131,159"
+            "price": "78.90",
+            "volume": "162,151"
         },
         {
             "rank": 4,
             "symbol": "2317",
             "name": "鴻海",
-            "price": "205.50",
-            "volume": "104,510"
+            "price": "206.00",
+            "volume": "115,829"
         },
         {
             "rank": 5,
-            "symbol": "1717",
-            "name": "長興",
-            "price": "36.70",
-            "volume": "77,572"
+            "symbol": "2367",
+            "name": "燿華",
+            "price": "32.95",
+            "volume": "90,351"
         },
         {
             "rank": 6,
-            "symbol": "2367",
-            "name": "燿華",
-            "price": "32.10",
-            "volume": "75,603"
+            "symbol": "1717",
+            "name": "長興",
+            "price": "37.80",
+            "volume": "86,896"
         },
         {
             "rank": 7,
             "symbol": "00878",
             "name": "國泰永續高股息",
             "price": "21.15",
-            "volume": "68,938"
+            "volume": "86,361"
         },
         {
             "rank": 8,
-            "symbol": "2402",
-            "name": "毅嘉",
-            "price": "56.50",
-            "volume": "68,047"
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "42.80",
+            "volume": "83,257"
         },
         {
             "rank": 9,
-            "symbol": "1303",
-            "name": "南亞",
-            "price": "41.85",
-            "volume": "60,119"
+            "symbol": "2402",
+            "name": "毅嘉",
+            "price": "56.40",
+            "volume": "72,374"
         },
         {
             "rank": 10,
-            "symbol": "3645",
-            "name": "達邁",
-            "price": "75.40",
-            "volume": "56,350"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.81",
+            "volume": "60,409"
         }
     ]
 }
