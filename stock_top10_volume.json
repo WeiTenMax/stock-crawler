@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-19 13:26:31",
+    "last_updated_cst": "2025-08-19 13:41:12",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1802",
             "name": "台玻",
-            "price": "36.00",
-            "volume": "446,074"
+            "price": "35.95",
+            "volume": "453,879"
         },
         {
             "rank": 2,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "13.07",
-            "volume": "252,916"
+            "price": "13.05",
+            "volume": "260,610"
         },
         {
             "rank": 3,
             "symbol": "1303",
             "name": "南亞",
-            "price": "42.20",
-            "volume": "186,172"
+            "price": "42.15",
+            "volume": "189,701"
         },
         {
             "rank": 4,
             "symbol": "3706",
             "name": "神達",
-            "price": "92.40",
-            "volume": "146,201"
+            "price": "92.00",
+            "volume": "152,810"
         },
         {
             "rank": 5,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
-            "price": "12.53",
-            "volume": "131,074"
+            "price": "12.50",
+            "volume": "135,412"
         },
         {
             "rank": 6,
             "symbol": "1409",
             "name": "新纖",
             "price": "17.80",
-            "volume": "127,271"
+            "volume": "129,553"
         },
         {
             "rank": 7,
             "symbol": "2498",
             "name": "宏達電",
             "price": "56.70",
-            "volume": "115,553"
+            "volume": "115,678"
         },
         {
             "rank": 8,
             "symbol": "1717",
             "name": "長興",
-            "price": "42.35",
-            "volume": "102,949"
+            "price": "42.30",
+            "volume": "104,910"
         },
         {
             "rank": 9,
             "symbol": "6213",
             "name": "聯茂",
-            "price": "135.50",
-            "volume": "95,914"
+            "price": "135.00",
+            "volume": "97,891"
         },
         {
             "rank": 10,
             "symbol": "3715",
             "name": "定穎投控",
             "price": "103.00",
-            "volume": "79,714"
+            "volume": "82,350"
         }
     ]
 }
