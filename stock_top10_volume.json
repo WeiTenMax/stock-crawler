@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-19 08:46:33",
+    "last_updated_cst": "2025-08-19 10:23:56",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1802",
             "name": "台玻",
-            "price": "37.40",
-            "volume": "203,763"
+            "price": "36.40",
+            "volume": "286,411"
         },
         {
             "rank": 2,
-            "symbol": "1815O",
-            "name": "富喬",
-            "price": "80.90",
-            "volume": "178,434"
+            "symbol": "00981A",
+            "name": "主動統一台股增長",
+            "price": "13.27",
+            "volume": "133,037"
         },
         {
             "rank": 3,
             "symbol": "1303",
             "name": "南亞",
-            "price": "46.25",
-            "volume": "167,188"
+            "price": "43.05",
+            "volume": "125,618"
         },
         {
             "rank": 4,
             "symbol": "3706",
             "name": "神達",
-            "price": "90.60",
-            "volume": "162,920"
+            "price": "93.50",
+            "volume": "100,879"
         },
         {
             "rank": 5,
-            "symbol": "00878",
-            "name": "國泰永續高股息",
-            "price": "20.72",
-            "volume": "159,372"
+            "symbol": "1409",
+            "name": "新纖",
+            "price": "18.65",
+            "volume": "86,074"
         },
         {
             "rank": 6,
-            "symbol": "00981A",
-            "name": "主動統一台股增長",
-            "price": "13.42",
-            "volume": "116,164"
+            "symbol": "2498",
+            "name": "宏達電",
+            "price": "55.80",
+            "volume": "76,386"
         },
         {
             "rank": 7,
-            "symbol": "1717",
-            "name": "長興",
-            "price": "42.40",
-            "volume": "111,029"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.67",
+            "volume": "69,706"
         },
         {
             "rank": 8,
-            "symbol": "2344",
-            "name": "華邦電",
-            "price": "19.10",
-            "volume": "107,543"
+            "symbol": "6213",
+            "name": "聯茂",
+            "price": "140.00",
+            "volume": "68,428"
         },
         {
             "rank": 9,
-            "symbol": "1409",
-            "name": "新纖",
-            "price": "17.70",
-            "volume": "105,393"
+            "symbol": "1717",
+            "name": "長興",
+            "price": "43.55",
+            "volume": "65,859"
         },
         {
             "rank": 10,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.76",
-            "volume": "89,391"
+            "symbol": "3715",
+            "name": "定穎投控",
+            "price": "105.50",
+            "volume": "60,446"
         }
     ]
 }
