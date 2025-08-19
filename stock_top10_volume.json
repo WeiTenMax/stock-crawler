@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-19 11:28:00",
+    "last_updated_cst": "2025-08-19 11:54:11",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1802",
             "name": "台玻",
-            "price": "36.40",
-            "volume": "331,423"
+            "price": "37.35",
+            "volume": "359,329"
         },
         {
             "rank": 2,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "13.19",
-            "volume": "161,802"
+            "price": "13.17",
+            "volume": "173,303"
         },
         {
             "rank": 3,
             "symbol": "1303",
             "name": "南亞",
-            "price": "42.65",
-            "volume": "140,882"
+            "price": "42.60",
+            "volume": "146,232"
         },
         {
             "rank": 4,
             "symbol": "3706",
             "name": "神達",
-            "price": "93.00",
-            "volume": "120,666"
+            "price": "93.20",
+            "volume": "123,659"
         },
         {
             "rank": 5,
             "symbol": "1409",
             "name": "新纖",
             "price": "18.65",
-            "volume": "94,706"
+            "volume": "97,024"
         },
         {
             "rank": 6,
             "symbol": "2498",
             "name": "宏達電",
-            "price": "54.80",
-            "volume": "86,541"
+            "price": "54.50",
+            "volume": "89,910"
         },
         {
             "rank": 7,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
-            "price": "12.65",
-            "volume": "82,455"
+            "price": "12.63",
+            "volume": "85,789"
         },
         {
             "rank": 8,
             "symbol": "6213",
             "name": "聯茂",
-            "price": "138.00",
-            "volume": "80,629"
+            "price": "137.50",
+            "volume": "83,112"
         },
         {
             "rank": 9,
             "symbol": "1717",
             "name": "長興",
-            "price": "43.30",
-            "volume": "70,900"
+            "price": "43.40",
+            "volume": "73,671"
         },
         {
             "rank": 10,
             "symbol": "5371O",
             "name": "中光電",
-            "price": "105.00",
-            "volume": "65,098"
+            "price": "106.50",
+            "volume": "69,304"
         }
     ]
 }
