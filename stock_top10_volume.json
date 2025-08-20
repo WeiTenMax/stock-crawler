@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-20 12:37:04",
+    "last_updated_cst": "2025-08-20 12:50:13",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "0050",
             "name": "元大台灣50",
             "price": "51.75",
-            "volume": "169,927"
+            "volume": "179,953"
         },
         {
             "rank": 2,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "12.58",
-            "volume": "165,024"
+            "price": "12.56",
+            "volume": "172,286"
         },
         {
             "rank": 3,
             "symbol": "2498",
             "name": "宏達電",
-            "price": "57.20",
-            "volume": "132,490"
+            "price": "57.30",
+            "volume": "133,727"
         },
         {
             "rank": 4,
             "symbol": "00982A",
             "name": "主動群益台灣強棒",
             "price": "12.07",
-            "volume": "125,480"
+            "volume": "130,194"
         },
         {
             "rank": 5,
             "symbol": "2303",
             "name": "聯電",
             "price": "42.00",
-            "volume": "94,790"
+            "volume": "96,668"
         },
         {
             "rank": 6,
             "symbol": "00919",
             "name": "群益台灣精選高息",
-            "price": "21.44",
-            "volume": "91,873"
+            "price": "21.47",
+            "volume": "96,376"
         },
         {
             "rank": 7,
-            "symbol": "00878",
-            "name": "國泰永續高股息",
-            "price": "20.47",
-            "volume": "89,467"
+            "symbol": "00679BO",
+            "name": "元大美債20年",
+            "price": "25.99",
+            "volume": "93,770"
         },
         {
             "rank": 8,
-            "symbol": "2317",
-            "name": "鴻海",
-            "price": "200.50",
-            "volume": "88,863"
+            "symbol": "00878",
+            "name": "國泰永續高股息",
+            "price": "20.48",
+            "volume": "92,825"
         },
         {
             "rank": 9,
-            "symbol": "1303",
-            "name": "南亞",
-            "price": "40.90",
-            "volume": "81,349"
+            "symbol": "2317",
+            "name": "鴻海",
+            "price": "200.00",
+            "volume": "90,521"
         },
         {
             "rank": 10,
-            "symbol": "0056",
-            "name": "元大高股息",
-            "price": "34.53",
-            "volume": "77,838"
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "40.90",
+            "volume": "83,524"
         }
     ]
 }
