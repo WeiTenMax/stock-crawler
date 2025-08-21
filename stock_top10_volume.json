@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-21 10:47:13",
+    "last_updated_cst": "2025-08-21 11:32:05",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "2498",
-            "name": "宏達電",
-            "price": "60.00",
-            "volume": "82,969"
+            "symbol": "3481",
+            "name": "群創",
+            "price": "13.50",
+            "volume": "89,431"
         },
         {
             "rank": 2,
             "symbol": "2401",
             "name": "凌陽",
-            "price": "25.00",
-            "volume": "81,061"
+            "price": "25.15",
+            "volume": "85,718"
         },
         {
             "rank": 3,
-            "symbol": "1303",
-            "name": "南亞",
-            "price": "42.05",
-            "volume": "73,493"
+            "symbol": "2498",
+            "name": "宏達電",
+            "price": "60.00",
+            "volume": "84,007"
         },
         {
             "rank": 4,
-            "symbol": "5371O",
-            "name": "中光電",
-            "price": "106.00",
-            "volume": "68,032"
+            "symbol": "2890",
+            "name": "永豐金",
+            "price": "23.95",
+            "volume": "80,544"
         },
         {
             "rank": 5,
-            "symbol": "2890",
-            "name": "永豐金",
-            "price": "24.00",
-            "volume": "65,520"
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "42.30",
+            "volume": "77,547"
         },
         {
             "rank": 6,
-            "symbol": "2328",
-            "name": "廣宇",
-            "price": "53.20",
-            "volume": "54,782"
+            "symbol": "5371O",
+            "name": "中光電",
+            "price": "106.00",
+            "volume": "72,982"
         },
         {
             "rank": 7,
-            "symbol": "1504",
-            "name": "東元",
-            "price": "63.80",
-            "volume": "54,530"
+            "symbol": "00981A",
+            "name": "主動統一台股增長",
+            "price": "12.66",
+            "volume": "63,530"
         },
         {
             "rank": 8,
-            "symbol": "00981A",
-            "name": "主動統一台股增長",
-            "price": "12.69",
-            "volume": "54,495"
+            "symbol": "00637L",
+            "name": "元大滬深300正2",
+            "price": "18.01",
+            "volume": "58,573"
         },
         {
             "rank": 9,
             "symbol": "00715L",
             "name": "期街口布蘭特正2",
-            "price": "11.14",
-            "volume": "53,978"
+            "price": "11.15",
+            "volume": "57,610"
         },
         {
             "rank": 10,
-            "symbol": "1326",
-            "name": "台化",
-            "price": "30.90",
-            "volume": "51,709"
+            "symbol": "1504",
+            "name": "東元",
+            "price": "63.80",
+            "volume": "55,681"
         }
     ]
 }
