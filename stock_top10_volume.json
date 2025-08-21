@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-21 12:51:56",
+    "last_updated_cst": "2025-08-21 13:00:26",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3481",
             "name": "群創",
-            "price": "13.45",
-            "volume": "158,609"
+            "price": "13.35",
+            "volume": "162,814"
         },
         {
             "rank": 2,
             "symbol": "2890",
             "name": "永豐金",
-            "price": "24.00",
-            "volume": "92,233"
+            "price": "23.95",
+            "volume": "93,182"
         },
         {
             "rank": 3,
             "symbol": "2401",
             "name": "凌陽",
             "price": "25.15",
-            "volume": "89,949"
+            "volume": "90,016"
         },
         {
             "rank": 4,
             "symbol": "1303",
             "name": "南亞",
             "price": "42.20",
-            "volume": "88,118"
+            "volume": "89,166"
         },
         {
             "rank": 5,
             "symbol": "2498",
             "name": "宏達電",
             "price": "60.00",
-            "volume": "85,270"
+            "volume": "85,355"
         },
         {
             "rank": 6,
             "symbol": "5371O",
             "name": "中光電",
-            "price": "104.50",
-            "volume": "81,539"
+            "price": "104.00",
+            "volume": "82,099"
         },
         {
             "rank": 7,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "12.68",
-            "volume": "79,342"
+            "price": "12.70",
+            "volume": "80,460"
         },
         {
             "rank": 8,
             "symbol": "2409",
             "name": "友達",
             "price": "13.00",
-            "volume": "69,323"
+            "volume": "71,846"
         },
         {
             "rank": 9,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.17",
-            "volume": "65,015"
+            "symbol": "00982A",
+            "name": "主動群益台灣強棒",
+            "price": "12.26",
+            "volume": "67,301"
         },
         {
             "rank": 10,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.25",
-            "volume": "64,736"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "52.00",
+            "volume": "65,373"
         }
     ]
 }
