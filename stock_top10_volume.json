@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-21 11:55:01",
+    "last_updated_cst": "2025-08-21 12:17:47",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "3481",
             "name": "群創",
-            "price": "13.70",
-            "volume": "122,304"
+            "price": "13.60",
+            "volume": "141,223"
         },
         {
             "rank": 2,
-            "symbol": "2401",
-            "name": "凌陽",
-            "price": "25.15",
-            "volume": "85,989"
+            "symbol": "2890",
+            "name": "永豐金",
+            "price": "24.00",
+            "volume": "87,491"
         },
         {
             "rank": 3,
-            "symbol": "2890",
-            "name": "永豐金",
-            "price": "23.95",
-            "volume": "85,152"
+            "symbol": "2401",
+            "name": "凌陽",
+            "price": "25.15",
+            "volume": "86,137"
         },
         {
             "rank": 4,
             "symbol": "2498",
             "name": "宏達電",
             "price": "60.00",
-            "volume": "84,187"
+            "volume": "84,878"
         },
         {
             "rank": 5,
             "symbol": "1303",
             "name": "南亞",
-            "price": "42.40",
-            "volume": "79,597"
+            "price": "42.15",
+            "volume": "81,673"
         },
         {
             "rank": 6,
             "symbol": "5371O",
             "name": "中光電",
-            "price": "105.50",
-            "volume": "76,389"
+            "price": "104.00",
+            "volume": "78,811"
         },
         {
             "rank": 7,
             "symbol": "00981A",
             "name": "主動統一台股增長",
-            "price": "12.67",
-            "volume": "65,429"
+            "price": "12.65",
+            "volume": "67,603"
         },
         {
             "rank": 8,
-            "symbol": "00637L",
-            "name": "元大滬深300正2",
-            "price": "18.01",
-            "volume": "59,940"
+            "symbol": "2409",
+            "name": "友達",
+            "price": "13.15",
+            "volume": "64,146"
         },
         {
             "rank": 9,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.15",
-            "volume": "59,705"
+            "symbol": "00637L",
+            "name": "元大滬深300正2",
+            "price": "18.01",
+            "volume": "60,911"
         },
         {
             "rank": 10,
-            "symbol": "2409",
-            "name": "友達",
-            "price": "13.30",
-            "volume": "58,423"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.14",
+            "volume": "60,642"
         }
     ]
 }
