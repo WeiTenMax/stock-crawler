@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-21 07:55:56",
+    "last_updated_cst": "2025-08-21 09:16:55",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "0050",
-            "name": "元大台灣50",
-            "price": "51.70",
-            "volume": "223,242"
+            "symbol": "2498",
+            "name": "宏達電",
+            "price": "58.70",
+            "volume": "39,020"
         },
         {
             "rank": 2,
-            "symbol": "00981A",
-            "name": "主動統一台股增長",
-            "price": "12.49",
-            "volume": "213,664"
+            "symbol": "2890",
+            "name": "永豐金",
+            "price": "24.15",
+            "volume": "38,417"
         },
         {
             "rank": 3,
-            "symbol": "00982A",
-            "name": "主動群益台灣強棒",
-            "price": "12.00",
-            "volume": "167,728"
+            "symbol": "2401",
+            "name": "凌陽",
+            "price": "24.10",
+            "volume": "36,135"
         },
         {
             "rank": 4,
-            "symbol": "2498",
-            "name": "宏達電",
-            "price": "54.60",
-            "volume": "167,165"
+            "symbol": "5371O",
+            "name": "中光電",
+            "price": "110.50",
+            "volume": "29,207"
         },
         {
             "rank": 5,
-            "symbol": "00679BO",
-            "name": "元大美債20年",
-            "price": "25.95",
-            "volume": "166,231"
+            "symbol": "2328",
+            "name": "廣宇",
+            "price": "52.30",
+            "volume": "21,716"
         },
         {
             "rank": 6,
-            "symbol": "00878",
-            "name": "國泰永續高股息",
-            "price": "20.45",
-            "volume": "129,930"
+            "symbol": "1301",
+            "name": "台塑",
+            "price": "41.10",
+            "volume": "20,666"
         },
         {
             "rank": 7,
-            "symbol": "2317",
-            "name": "鴻海",
-            "price": "200.50",
-            "volume": "119,873"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.05",
+            "volume": "20,666"
         },
         {
             "rank": 8,
-            "symbol": "00919",
-            "name": "群益台灣精選高息",
-            "price": "21.42",
-            "volume": "118,280"
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "41.90",
+            "volume": "18,284"
         },
         {
             "rank": 9,
-            "symbol": "0056",
-            "name": "元大高股息",
-            "price": "34.50",
-            "volume": "111,500"
+            "symbol": "00981A",
+            "name": "主動統一台股增長",
+            "price": "12.65",
+            "volume": "18,115"
         },
         {
             "rank": 10,
-            "symbol": "2303",
-            "name": "聯電",
-            "price": "41.90",
-            "volume": "109,237"
+            "symbol": "2316",
+            "name": "楠梓電",
+            "price": "107.50",
+            "volume": "17,753"
         }
     ]
 }
