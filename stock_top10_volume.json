@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-22 10:22:45",
+    "last_updated_cst": "2025-08-22 11:26:52",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
-            "symbol": "2328",
-            "name": "廣宇",
-            "price": "57.50",
-            "volume": "99,805"
+            "symbol": "1504",
+            "name": "東元",
+            "price": "68.10",
+            "volume": "133,408"
         },
         {
             "rank": 2,
-            "symbol": "1504",
-            "name": "東元",
-            "price": "70.10",
-            "volume": "98,741"
+            "symbol": "2328",
+            "name": "廣宇",
+            "price": "55.20",
+            "volume": "117,880"
         },
         {
             "rank": 3,
             "symbol": "2498",
             "name": "宏達電",
-            "price": "61.90",
-            "volume": "80,220"
+            "price": "62.20",
+            "volume": "114,190"
         },
         {
             "rank": 4,
-            "symbol": "3481",
-            "name": "群創",
-            "price": "13.25",
-            "volume": "61,104"
+            "symbol": "2401",
+            "name": "凌陽",
+            "price": "26.40",
+            "volume": "74,174"
         },
         {
             "rank": 5,
-            "symbol": "1326",
-            "name": "台化",
-            "price": "31.80",
-            "volume": "55,208"
+            "symbol": "3481",
+            "name": "群創",
+            "price": "13.20",
+            "volume": "69,396"
         },
         {
             "rank": 6,
-            "symbol": "4931O",
-            "name": "新盛力",
-            "price": "169.00",
-            "volume": "53,746"
+            "symbol": "1326",
+            "name": "台化",
+            "price": "31.30",
+            "volume": "66,657"
         },
         {
             "rank": 7,
-            "symbol": "2401",
-            "name": "凌陽",
-            "price": "26.55",
-            "volume": "52,536"
+            "symbol": "00715L",
+            "name": "期街口布蘭特正2",
+            "price": "11.31",
+            "volume": "66,190"
         },
         {
             "rank": 8,
-            "symbol": "00715L",
-            "name": "期街口布蘭特正2",
-            "price": "11.30",
-            "volume": "51,206"
+            "symbol": "4931O",
+            "name": "新盛力",
+            "price": "167.50",
+            "volume": "58,657"
         },
         {
             "rank": 9,
-            "symbol": "6148O",
-            "name": "驊宏資",
-            "price": "61.50",
-            "volume": "46,420"
+            "symbol": "5371O",
+            "name": "中光電",
+            "price": "109.50",
+            "volume": "58,004"
         },
         {
             "rank": 10,
-            "symbol": "5371O",
-            "name": "中光電",
-            "price": "109.00",
-            "volume": "46,329"
+            "symbol": "3715",
+            "name": "定穎投控",
+            "price": "103.00",
+            "volume": "53,037"
         }
     ]
 }
