@@ -1,77 +1,77 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-25 10:04:05",
+    "last_updated_cst": "2025-08-25 11:20:06",
     "execution_count": 1,
     "data": [
         {
             "rank": 1,
             "symbol": "1504",
             "name": "東元",
-            "price": "73.30",
-            "volume": "79,589"
+            "price": "74.20",
+            "volume": "127,582"
         },
         {
             "rank": 2,
             "symbol": "3706",
             "name": "神達",
-            "price": "98.30",
-            "volume": "64,790"
+            "price": "97.90",
+            "volume": "94,296"
         },
         {
             "rank": 3,
             "symbol": "2352",
             "name": "佳世達",
-            "price": "33.35",
-            "volume": "63,436"
+            "price": "33.30",
+            "volume": "76,497"
         },
         {
             "rank": 4,
-            "symbol": "2328",
-            "name": "廣宇",
-            "price": "59.40",
-            "volume": "56,261"
+            "symbol": "00637L",
+            "name": "元大滬深300正2",
+            "price": "19.09",
+            "volume": "64,925"
         },
         {
             "rank": 5,
-            "symbol": "2498",
-            "name": "宏達電",
-            "price": "62.70",
-            "volume": "43,405"
-        },
-        {
-            "rank": 6,
             "symbol": "00981A",
             "name": "主動統一台股增長",
             "price": "13.00",
-            "volume": "40,495"
+            "volume": "60,514"
+        },
+        {
+            "rank": 6,
+            "symbol": "1303",
+            "name": "南亞",
+            "price": "42.60",
+            "volume": "60,413"
         },
         {
             "rank": 7,
-            "symbol": "00637L",
-            "name": "元大滬深300正2",
-            "price": "19.02",
-            "volume": "36,093"
+            "symbol": "2498",
+            "name": "宏達電",
+            "price": "61.10",
+            "volume": "59,035"
         },
         {
             "rank": 8,
-            "symbol": "3715",
-            "name": "定穎投控",
-            "price": "105.00",
-            "volume": "34,122"
+            "symbol": "2328",
+            "name": "廣宇",
+            "price": "59.40",
+            "volume": "57,608"
         },
         {
             "rank": 9,
-            "symbol": "3535",
-            "name": "晶彩科",
-            "price": "73.80",
-            "volume": "31,995"
+            "symbol": "00632R",
+            "name": "元大台灣50反1",
+            "price": "19.81",
+            "volume": "50,662"
         },
         {
             "rank": 10,
-            "symbol": "2354",
-            "name": "鴻準",
-            "price": "73.80",
-            "volume": "31,737"
+            "symbol": "0050",
+            "name": "元大台灣50",
+            "price": "52.90",
+            "volume": "48,131"
         }
     ]
 }
