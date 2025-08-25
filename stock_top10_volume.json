@@ -1,6 +1,6 @@
 {
     "source": "Finance Taiwan (Top 10 Volume Ranking)",
-    "last_updated_cst": "2025-08-25 12:26:15",
+    "last_updated_cst": "2025-08-25 12:47:26",
     "execution_count": 1,
     "data": [
         {
@@ -8,70 +8,70 @@
             "symbol": "1504",
             "name": "東元",
             "price": "74.20",
-            "volume": "129,257"
+            "volume": "130,446"
         },
         {
             "rank": 2,
             "symbol": "3706",
             "name": "神達",
-            "price": "99.00",
-            "volume": "110,426"
+            "price": "99.20",
+            "volume": "112,517"
         },
         {
             "rank": 3,
             "symbol": "2352",
             "name": "佳世達",
-            "price": "33.30",
-            "volume": "86,800"
+            "price": "33.35",
+            "volume": "89,590"
         },
         {
             "rank": 4,
             "symbol": "2498",
             "name": "宏達電",
-            "price": "59.80",
-            "volume": "73,592"
+            "price": "60.10",
+            "volume": "80,704"
         },
         {
             "rank": 5,
-            "symbol": "00637L",
-            "name": "元大滬深300正2",
-            "price": "19.10",
-            "volume": "70,736"
+            "symbol": "00981A",
+            "name": "主動統一台股增長",
+            "price": "13.01",
+            "volume": "73,867"
         },
         {
             "rank": 6,
-            "symbol": "00981A",
-            "name": "主動統一台股增長",
-            "price": "13.02",
-            "volume": "69,496"
+            "symbol": "00637L",
+            "name": "元大滬深300正2",
+            "price": "19.11",
+            "volume": "72,320"
         },
         {
             "rank": 7,
             "symbol": "1303",
             "name": "南亞",
-            "price": "42.50",
-            "volume": "66,118"
+            "price": "42.60",
+            "volume": "67,846"
         },
         {
             "rank": 8,
             "symbol": "00632R",
             "name": "元大台灣50反1",
-            "price": "19.79",
-            "volume": "60,395"
+            "price": "19.80",
+            "volume": "62,338"
         },
         {
             "rank": 9,
             "symbol": "2328",
             "name": "廣宇",
             "price": "59.40",
-            "volume": "58,099"
+            "volume": "58,240"
         },
         {
             "rank": 10,
             "symbol": "5371O",
             "name": "中光電",
             "price": "113.00",
-            "volume": "56,194"
+            "volume": "56,498"
         }
     ]
 }
